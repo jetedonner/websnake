@@ -15,7 +15,7 @@
 
           ctx.fillStyle = COLORS.BLUE;
           ctx.beginPath();
-          ctx.arc(100 - (snakeSize / 2), 75 - (snakeSize / 2), (snakeSize / 2), 0, 2 * Math.PI);
+          ctx.arc(100 - (snakeSize / 2), 75 /*- (snakeSize / 2)*/, (snakeSize / 2), 0, 2 * Math.PI);
           ctx.fill();
           if(paused) {
             drawText(ctx, "PAUSE", "30px Arial");
